@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+    color: rgba(0,0,0,.9);
+    /* background-color: #e8aa3b; */
+}
+.dark_mode {
+    background-color: #212529;
+    color: white;
+}
+.active{
+    font-weight: 700; 
+}
+.navbar{
+    background-color: #f1f1f1;
+    /* height: 200px; */
+}
+.navbar-collapse{
+    height: 40px;
+}
+.navbar-brand{
+    border: 2px solid black;
+    padding: 3px 15px;
+    background-color: #e8aa3b;
+    margin-left: 29%;
+}
+#beard_jumbotrons{
+    width: 40%;
+    height: 400px;
+    margin-left: 31%;
+    margin-top: 30px;
+    
+}
+#beard_jumbotron_container
+{
+    height: 500px; 
+    background-color: #f1f1f1;
+}
+.social_link_jumbo{
+    transform: rotateZ(90deg);
+    width: 40%;
+    margin-left: 75%;
+    margin-top: 3%;
+    
+}
+.jumbo_social_links{
+    text-decoration: none;
+    color: rgba(0,0,0,.9);
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 18px;    
+}
+.jumbo_social_links_toggle>a{
+    color: white !important;
+}
+.underline_hover:hover{
+    border-bottom: 2px solid #e8aa3b;
+    color: rgba(0,0,0,.9);
+}
+.underline_hover:active:hover{
+    border-bottom: 2px solid #e8aa3b;
+}
+#shop_by_collection{
+    height: 400px;
+}
+.section_heading{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.prod-img{
+    margin-left: 6%;
+    border-bottom: 5px solid #e8aa3b;
+    width: 90%;
+    height: 250px;
+    margin-bottom: 15px;
+}
+.product_combo_name{
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.comment{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#best_seller{
+    height: 400px;
+
+}
+.product_name{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 6%;
+    text-transform: uppercase;
+    float: left;
+
+}
+.prod_price{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 6%;
+    
+}
+.prod_info{
+    padding: 0;
+}
+.ratings{
+    float: right;
+    margin-right: 6%;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+#beard_blog{
+    height: 300px;
+    border-bottom: 5px solid #e8aa3b;
+}
+#beard_men{
+    width: 60%;
+    height: 200px;
+    margin-left: 25%;
+    
+}
+#foton{
+    height: 300px;
+    overflow-x: auto;
+}
+.foton_img{
+    padding: 0;
+    margin: 0;
+    width: 250px !important;
+}
+#foton::-webkit-scrollbar{
+    width: 0;
+}
+/* //FOOTER */
+#footer{
+    
+    background-color: #f1f1f1;
+    color: rgba(0,0,0,.9);
+    height: 450px;
+    width: 100%;
+    
+    
+    
+}
+.footer_toggle{
+    background-color: #303536c7 !important;
+    color:white !important;
+}
+#footCol{
+    display: inline-block;
+    width: 100%;
+}
+.footText{
+    text-align: center;
+    padding-top: 2%;
+    color: #999;
+    font-weight: 500;
+    font-size: 15px;
+
+    
+}
+.footDiv>ul{
+    list-style-type: none;
+}
+.footDiv>ul>li{
+    margin-bottom: 2%;
+}
+.footDiv{
+    float:left;
+    text-align: left;
+    /* border: 2px dashed white; */
+    width: 30%;
+    margin-left: 3%;
+    
+}
+.footHeader{
+    color: #999;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 5%;
+
+}
+#Social-Link>h2{
+    color: #999;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+#social{
+    text-align: center;
+}
+.socialLogo{
+    height:50px;
+}
