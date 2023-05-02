@@ -3,7 +3,11 @@ body{
     padding: 0;
     font-family: 'Comic Neue', cursive;
     color: rgba(0,0,0,.9);
+    
     /* background-color: #e8aa3b; */
+}
+#main{
+    z-index: 0;
 }
 .dark_mode {
     background-color: #212529;
@@ -61,6 +65,7 @@ body{
 .underline_hover:active:hover{
     border-bottom: 2px solid #e8aa3b;
 }
+
 #shop_by_collection{
     height: 400px;
 }
@@ -201,3 +206,64 @@ body{
 .socialLogo{
     height:50px;
 }
+#coupon{
+    width:38%;
+    height: 400px;
+    position: absolute;
+    top:30%;
+    visibility: hidden;
+    left:32%;
+    background-color: #263357;
+    z-index: 10;
+    padding: 0;
+    /* background-image: url("images/product_ad_08.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 607px 340px; */
+    
+    
+}
+#coupon_img{
+    height:330px;
+    width: 100%;
+    
+}
+.discount_text{
+    color: #e8aa3b;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline;
+    margin: 2px;
+    margin-left: 28%;
+}
+.bottom_text{
+    margin-left: 20%;
+}
+.btn-close{
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+/* #redirect{
+    
+    
+    transform: rotate(40deg);
+    margin-left: 4%;
+    margin-top: 4%;
+    padding-top: 3%;
+    border-bottom: 86px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 100px;
+	width: 200px;
+}
+#redirect_link{
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+#redirect_link:visited{
+    color: white;
+} */
+
