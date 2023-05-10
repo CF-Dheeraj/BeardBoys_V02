@@ -23,11 +23,23 @@ body{
 .navbar-collapse{
     height: 40px;
 }
+.left_nav{
+    padding-top: 20px;
+}
 .navbar-brand{
     border: 2px solid black;
     padding: 3px 15px;
     background-color: #e8aa3b;
-    margin-left: 29%;
+    margin-left: 20%;
+}
+.temperature-style-toggle{
+    display: inline;
+    
+}
+#icon-weat{
+    display: inline;
+    margin-top: -7px;
+
 }
 #beard_jumbotrons{
     width: 40%;
