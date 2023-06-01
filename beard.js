@@ -21,6 +21,7 @@ function showPosition(data){
   let lon = data.coords.longitude
   const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`;
   console.log(url);
+  
   //api calling
   fetch(url,{method: 'GET'})
   //return promise

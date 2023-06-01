@@ -18,54 +18,69 @@
 </head>
 <body>
   <div id="main">
-    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-      <div class="container-fluid">
-        
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav  mb-2 mb-lg-0 ms-5 left_nav" id="left-nav">
-                  <li class="nav-item ">
-                    <a class="nav-link active underline_hover" aria-current="page" href="#">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link underline_hover" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link underline_hover" id="location" href="#">Location</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link underline_hover" id="temperature" href="#">Temperature</a>
-                    <img src="" id="icon-weat"/>
-                  </li>
-              </ul>
-              <a class="navbar-brand" href="#">BEARDBOYS</a>
-              <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 me-5">
-                  <li class="nav-item">
-                    <button class="btn btn-dark me-2"id="theme_mode" onclick="switch_theme()">Dark mode</button>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link underline_hover" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link underline_hover" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link underline_hover" href="#"><i class="bi bi-cart me-1"></i>0.00&#8377</a>
-                  </li>
-              </ul>
+    <div id="upper_body">
+            <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+              <div class="container-fluid">
+                
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a class="navbar-brand" href="#">BEARDBOYS</a>
+                      <ul class="navbar-nav  mb-2 mb-lg-0 ms-5 left_nav" id="left-nav">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Beard</a></li>
+                            <li><a class="dropdown-item" href="#">Fragrance</a></li>
+                            <li><a class="dropdown-item" href="#">Face</a></li>
+                            <li><a class="dropdown-item" href="#">Body</a></li>
+                            <li><a class="dropdown-item" href="#">Hair</a></li>
+                            <li><a class="dropdown-item" href="#">Trimmer</a></li>
+                            
+                          </ul>
+                        </li>
+                          <li class="nav-item">
+                            <a class="nav-link underline_hover" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link underline_hover" id="location" href="#">Location</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link underline_hover" id="temperature" href="#">Temperature</a>
+                            <img src="" id="icon-weat"/>
+                          </li>
+                      </ul>
+                      
+                      <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 me-5" id="right-nav">
+                          <li class="nav-item">
+                            <button class="btn btn-dark me-2"id="theme_mode" onclick="switch_theme()">Dark mode</button>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link underline_hover" href="#">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link underline_hover" href="#">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link underline_hover" href="#"><i class="bi bi-cart me-1"></i>0.00&#8377</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+          
+          <div class="container-fluid" id="beard_jumbotron_container">
+              <img src="images/beard_jumbotron-removebg-preview.png" alt="beardboys-logo" id="beard_jumbotrons"/>
+              <div class="container social_link_jumbo" id="jumbo_linker">
+                <a class="jumbo_social_links underline_hover" href="#">Facebook</a>
+                <a class="jumbo_social_links underline_hover" href="#">Twitter</a>
+                <a class="jumbo_social_links underline_hover" href="#">Instagram</a>
+              </div>
           </div>
-      </div>
-  </nav>
-  <div class="container-fluid" id="beard_jumbotron_container">
-      <img src="images/beard_jumbotron-removebg-preview.png" alt="beardboys-logo" id="beard_jumbotrons"/>
-      <div class="container social_link_jumbo" id="jumbo_linker">
-        <a class="jumbo_social_links underline_hover" href="#">Facebook</a>
-        <a class="jumbo_social_links underline_hover" href="#">Twitter</a>
-        <a class="jumbo_social_links underline_hover" href="#">Instagram</a>
-      </div>
-  </div>
+    </div>
   
   <!-- //Collection// -->
   <div class="container-fluid" id="shop_by_collection">

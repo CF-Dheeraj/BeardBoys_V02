@@ -20,6 +20,39 @@ body{
     background-color: #f1f1f1;
     /* height: 200px; */
 }
+.navbar-toggler{
+    margin-top: -780%;
+}
+@media screen and (max-width: 990px){
+
+    #upper_body{
+        display: flex;
+        background-color: dodgerblue;
+    }
+    .collapse{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        
+        
+    }
+    .navbar-brand{
+        position: absolute !important;
+        top: -27% !important;
+        left: 65% !important;
+    }
+    #left-nav{
+        margin-top: 30%;
+        padding-left: 50%;
+    }
+    #right-nav{
+        padding-left: 80%;
+    }
+    #beard_jumbotron_container{
+        
+        height: 600px !important;
+    }
+}
 .navbar-collapse{
     height: 40px;
 }
@@ -31,6 +64,9 @@ body{
     padding: 3px 15px;
     background-color: #e8aa3b;
     margin-left: 20%;
+    position: absolute;
+    top: 12%;
+    left: 26%;
 }
 .temperature-style-toggle{
     display: inline;
