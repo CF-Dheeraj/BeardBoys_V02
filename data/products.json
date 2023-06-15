@@ -1,0 +1,253 @@
+[
+    {
+        "id": 1,
+        "categoryId":1,
+        "name": "Beardo Beard & Hair Growth Oil",
+        "description": "For a thicker, healthier, shinier beard Natural Growth Boosting ingredient Helps reduce patchy beard For a smooth & frizz-free beard",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/7192-1.jpg?v=1682082965&width=1946",
+        "price": 750,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "categoryId":1,
+        "name": "Don Beardo's Beard Growth Pro Kit",
+        "description": "Perfect for an all-round beard regime Promotes thicker & fuller beard growth Stimulates inactive hair follicles Includes: Beard & Hair Growth Oil (50ml), Beard Activator, Godfather Beard Wash & Growth Roll On",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/1_33c7f970-fd45-40ee-9570-2e56a529b2bf.jpg?v=1681748190&width=1426",
+        "price": 1995,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 3,
+        "categoryId":1,
+        "name": "Beardo Beard Growth Combo",
+        "description": "Contains Beard Growth Oil (50ml) & Mustache Growth Roll On (8ml) Helps promote hair & beard growth All Natural ingredients helps grow Thicker, Healthier and Shinier Beard. Ultimate Solution for Uneven Beard and Hair Growth, helps get rid of patchy beard.",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/1_be3a4931-ace1-4634-bb22-e799e7574485.jpg?v=1681961859&width=1426",
+        "price": 849,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 4,
+        "categoryId":1,
+        "name": "Beardo Mustache Growth Roll On (8ml)",
+        "description": "Helps Grow Mustache Hair  Conditions the roots of the skin  Makes it manageable and frizz-free  Contains Almond Oil to boost growth",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/7296-1.webp?v=1685177978&width=1426",
+        "price": 245,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 5,
+        "categoryId":1,
+        "name": "Beardo Beard Activator (0.5mm)",
+        "description": "Evens Out Patchy Beard And Events Out Growth  Triggers Inactive Hair Follicles And Stimulates Growth  Improves Blood Flow For Faster Growth With 540 Chromium 0.5mm Microneedles  Deeper Absorption Of Growth Oil",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/Beardo_Beard_Activator_A__Banner_2160x2160_06.jpg?v=1681795588&width=1426",
+        "price": 750,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 6,
+        "categoryId":2,
+        "name": "Beardo Whisky Smoke Single Malt EDP",
+        "description": "Intense EDP (High Concentrate Perfume) Instead of EDT (Regular Perfumes)  Stronger, Lasts Longer Whiskey, Woody, Smokey  Irresistibly Decadent & Luxurious",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/files/1_46398c76-5c76-43fa-817c-2385904a464c.jpg?v=1683100028&width=1100",
+        "price": 1999,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 7,
+        "categoryId":2,
+        "name": "Beardo Whisky Smoke Perfume EDP",
+        "description": "EDP(high concentrate perfume) instead of EDT (regular perfumes)  Whiskey, Woody, Smokey  Irresistible & elegant",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/9221-beardo_ws_thumbnail_2160-x-2160_01.jpg?v=1682057841&width=990",
+        "price": 799,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 8,
+        "categoryId":2,
+        "name": "Beardo Whisky Smoke Perfume Body Spray",
+        "description": "NO GAS- Strong & Long-Lasting  Premium Body Spray for Men  Spicy, Woody-Oud  Safe to Use on Skin",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/1_e7585e9f-71cd-4029-bc2f-436211561689.jpg?v=1681747823&width=990",
+        "price": 349,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 9,
+        "categoryId":2,
+        "name": "Beardo Ice Blast Perfume Roll On",
+        "description": "Infused with Menthol, Ice Blast roll-on keeps you fresh throughout the day  Refreshing masculine fragrance lingers on your skin for long  Robust formula tackles body odor  Contains no alcohol, does not cause irritation to sensitive areas, such as underarms",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/BeardoIceBlastRollOnlistingimage_2160x2160_938453b6-8559-407d-9edd-b468da9c6024.jpg?v=1681900357&width=1100",
+        "price": 299,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 10,
+        "categoryId":2,
+        "name": "Beardo Beast Power Perfume Roll On",
+        "description": "Removes Body Odor Effectively  Infused with Notes of Vanilla & White Musk  Easy To Use & Compact- Best for Travelers On-The-Go  Long-Lasting, Strong Scent",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/BeardoBeastRollOnlistingimage_2160x2160_fc587ffa-9ad3-45a7-adf8-619ca87a9b06.jpg?v=1681899089&width=990",
+        "price": 299,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 11,
+        "categoryId":3,
+        "name": "Beardo De-Tan Facewash For Men",
+        "description": "Lightens and brightens skin  Removes tan and dead cells  Deep cleanses skin  Moisturizes and nourishes dull skin",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/1_0a03ad44-8d1c-41f4-9a91-4c5609c93882.jpg?v=1683807619&width=990",
+        "price": 399,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 12,
+        "categoryId":3,
+        "name": "Beardo Ultraglow Facewash For Men",
+        "description": "Brighter, Lighter Skin   Removes Dirt & Dead Cells  Reduces Dark Spots   Designed specially for men's tough skin",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/Beardo_UG_Face_Wash_A__2160x2160_07_e21c90f7-33c8-4b0d-b205-a4e34a2c88d0.jpg?v=1681756665&width=990",
+        "price": 350,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 13,
+        "categoryId":3,
+        "name": "Beardo Activated Charcoal Facewash",
+        "description": "Detoxifies & cleanses deeply  Removes dirt & dead cells  Controls excess oil  Fights acne and acne scars.",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/1_c6963d33-a042-4d1c-a32e-4446ead0486e.jpg?v=1682331587&width=990",
+        "price": 275,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 14,
+        "categoryId":3,
+        "name": "Beardo De-Tan Face Scrub",
+        "description": "Exfoliates and cleanses skin  Loaded with anti-oxidants  Lightens and brightens skin  Revives and rejuvenates skin",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/files/Beardo_DetanFaceScrub_A__Banner_2160x2160_01.jpg?v=1683189117&width=990",
+        "price": 350,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 15,
+        "categoryId":3,
+        "name": "Beardo Max Sunscreen Spray SPF-50",
+        "description": "SPF 50 protection  No contact application  Suitable for all skin types  Daily use sunscreen",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/1_2f49a975-6403-49c1-b11b-0253a7ba5ebd.jpg?v=1681555042&width=990",
+        "price": 320,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 16,
+        "categoryId":4,
+        "name": "Beardo Ice Blast Body Wash",
+        "description": "Cooling after effect  Prevents dryness of skin  Intense hydration  Blast of freshness with every wash",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/1_3565efc4-02a8-4c8c-9f92-15e818bf49aa.jpg?v=1682313812&width=990",
+        "price": 299,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 17,
+        "categoryId":4,
+        "name": "Beardo Ice Blast Body Wash",
+        "description": "Cooling after effect  Prevents dryness of skin  Intense hydration  Blast of freshness with every wash",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/1_3565efc4-02a8-4c8c-9f92-15e818bf49aa.jpg?v=1682313812&width=990",
+        "price": 299,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 18,
+        "categoryId":4,
+        "name": "Beardo Jamaican Rum Soap (5 Units)",
+        "description": "Keeps you fresh and fragrant for an entire day  Deep cleanses skin pores  Repairs broken skin  Helps reduce Hyperpigmentation",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/files/Beardo_Jamaican_Rum_Soap_Thumbnail_Image_10.jpg?v=1683266376&width=990",
+        "price": 400,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 19,
+        "categoryId":4,
+        "name": "Beardo Ultraglow Body Lotion For Men",
+        "description": "Designed specially for men's tough skin\u200b  Non sy and quick absorption formula  Deep Penetration and Moisture Retention  Lighter and Brighter Skin",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/1_f460c117-d6eb-4df7-9c85-9b34b62d8b5c.jpg?v=1681728439&width=990",
+        "price": 399,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 20,
+        "categoryId":4,
+        "name": "Beardo De-Tan Bodywash For Men",
+        "description": "Removes tan & dirt  Deep cleanses the body  Brightens & soothes the skin  Keeps you fresh and fragrant for an entire day",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/1_6880eb02-7679-4800-ba73-9887cbf97cc2.jpg?v=1681733372&width=990",
+        "price": 299,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 21,
+        "categoryId":5,
+        "name": "Beardo Hair Growth Sulphate Free Shampoo",
+        "description": "Sulphate-Free Shampoos designed especially for Men  Cleanses and vitalizes the scalp to reduce Hair Fall and Promote Hair Growth  Enriched with Biotin, Onion Oil and Kopexil  Highly Effective Against Hair Fall and Breakage",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/Beardo_Hair_Growth_Vitalizer_Sulphate_Free_Shampoo_512x512_01.jpg?v=1682313479&width=990",
+        "price": 449,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 22,
+        "categoryId":5,
+        "name": "Beardo Dandruff Control Sulphate Free Shampoo",
+        "description": "Helps remove dandruff   Sulphate Free Shampoos designed especially for Men  Reduces the recurrence of flakes & itchy scalp   Enriched with Climbazole and Menthol",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/BeardoDandruffControlShampoo_200ml_09.jpg?v=1681755380&width=990",
+        "price": 399,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 23,
+        "categoryId":5,
+        "name": "Beardo Hair Thickening Sulphate Free Shampoo",
+        "description": "Sulphate Free Shampoos designed especially for Men  Thickens and Reinforces Hair Shaft to reduce thinning and breakage related hair loss  Enriched with Biotin, Saw Palmetto and Keratin  Highly Effective Against Hair Thinning and Breakage",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/files/Beardo_Thin_Hair_Thickening_Sulphate_Free_Shampoo_1080x1080_6b6989e7-9ae4-434f-8ad2-0948b3e9d661.jpg?v=1682934467&width=990",
+        "price": 399,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 24,
+        "categoryId":5,
+        "name": "Beardo Max Volume Powder Wax",
+        "description": "Strong - All Weather Hold Instant Max Volume Made using Natural Ingredients  High Hold yet Restylable",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/1_4179fd9d-91b3-46b0-9df7-5ce21d725e85.jpg?v=1681801691&width=990",
+        "price": 399,
+        "available": true,
+        "rating": 4.5
+      },
+      {
+        "id": 25,
+        "categoryId":5,
+        "name": "Beardo Rosemary Essential Oil",
+        "description": "100% Natural, Cold Pressed Oil  Healthy Hair Growth and Prevents Hairfall   Has anti-fungal, astringent and decongesting qualities  Enriches Hair, Skin and Mind",
+        "image": "https://cdn.shopify.com/s/files/1/0745/0201/3236/products/Beardo_Rosemary_A__Banner_1080x144001.jpg?v=1681833251&width=990",
+        "price": 399,
+        "available": true,
+        "rating": 4.5
+      }
+
+]
