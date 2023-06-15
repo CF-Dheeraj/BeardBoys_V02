@@ -1,33 +1,23 @@
-//Page 1
+BeardBoys
 
--> get all products
--> Search products by categories
--> user registration and login
--> retrieve user profile information/ update it
--> add product to cart
--> remove product from cart
--> update quantity
+// page1
+> List of products
+>List of categories
+> products wrt to categories
 
-//Page 2
+//page2
+Add user
+retrieve user profile
+products within price range
 
--> Address and Profile update
--> Order Details
+//Page3
+> Details of Product
 
-//Page 3
-
--> Details of the product
--> Add to cart
--> Buy now
--> select quantity
-
-//Page 4
-
--> Details of item selected
--> Profile with address
+//Page4
+> Details of order selected
+> Place Order
 
 // Page5
-
-List of orders
--> Update
--> Delete orders
--> Payment gateway
+> List of all the orders
+> Update orders details
+> Delete Orders
