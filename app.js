@@ -97,6 +97,13 @@ app.put('/updateCartquantity',async (req,res)=>{
 
 })
 
+app.delete('/deleteCartItem',async (req,res)=>{
+    let collection='cart'
+    let condition = {'_id': new Mongo.ObjectId(req.body._id)}
+    let output = await deleteData(collection,condition)
+    res.send(output)
+})
+
 
 app.get('/orders',async (req,res)=>{
     let query={}
