@@ -78,7 +78,7 @@ app.post('/addtoCart',async(req,res)=>{
 
 app.get('/getfromCart/:email',async(req,res)=>{
     let collection ='cart'
-    let query = {'email':email}
+    let query = {'email':req.params.email}
     let output= await getData(collection,query)
     res.send(output)
 })
