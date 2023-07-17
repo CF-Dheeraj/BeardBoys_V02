@@ -69,6 +69,34 @@ app.post('/addUser',async (req,res)=>{
     res.send(response)
 })
 
+app.post('/addtoCart',async(req,res)=>{
+    let data = req.body
+    let collection='cart'
+    let response = await postData(collection,data)
+    res.send(response)
+})
+
+app.get('/getfromCart/:email',async(req,res)=>{
+    let collection ='cart'
+    let query = {'email':email}
+    let output= await getData(collection,query)
+    res.send(output)
+})
+
+app.put('/updateCartquantity',async (req,res)=>{
+    let collection = 'cart'
+    // console.log(new Mongo.ObjectId(req.body._id))
+    let condition = {'_id': new Mongo.ObjectId(req.body._id)}
+    let data = {
+        $set:{
+            'quantity':req.body.quantity
+        }
+    }
+    let output = await updateData(collection,condition,data)
+    res.send(output)
+
+})
+
 
 app.get('/orders',async (req,res)=>{
     let query={}
