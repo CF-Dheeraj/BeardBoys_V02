@@ -97,9 +97,9 @@ app.put('/updateCartquantity',async (req,res)=>{
 
 })
 
-app.delete('/deleteCartItem',async (req,res)=>{
+app.delete('/deleteCartItem/:cartId',async (req,res)=>{
     let collection='cart'
-    let condition = {'_id': new Mongo.ObjectId(req.body._id)}
+    let condition = {'_id': new Mongo.ObjectId(req.params.cartId)}
     let output = await deleteData(collection,condition)
     res.send(output)
 })
