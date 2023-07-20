@@ -83,10 +83,10 @@ app.get('/getfromCart/:email',async(req,res)=>{
     res.send(output)
 })
 
-app.put('/updateCartquantity',async (req,res)=>{
+app.put('/updateCartquantity/:cartId',async (req,res)=>{
     let collection = 'cart'
     // console.log(new Mongo.ObjectId(req.body._id))
-    let condition = {'_id': new Mongo.ObjectId(req.body._id)}
+    let condition = {'_id': new Mongo.ObjectId(req.params.cartId)}
     let data = {
         $set:{
             'quantity':req.body.quantity
