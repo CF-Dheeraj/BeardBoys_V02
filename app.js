@@ -62,6 +62,22 @@ app.get('/getUser/:emailId',async (req,res)=>{
     res.send(output)
 })
 
+app.post('/login',async(req,res)=>{
+    if(req.body.email && req.body.password)
+    {
+        let collection='users'
+        let query = {"email":req.body.email,"password":req.body.password}
+        let output = await getData(collection,query)
+        res.send(output)
+    }
+    else{
+        res.send("Please provide valid data")
+    }
+    
+
+    
+})
+
 app.post('/addUser',async (req,res)=>{
     let data = req.body
     let collection='users'
